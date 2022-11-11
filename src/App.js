@@ -1,3 +1,4 @@
+import 'airbnb-browser-shims';
 import logo from './logo.svg';
 import './App.css';
 
