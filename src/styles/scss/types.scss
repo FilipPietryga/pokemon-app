@@ -1,0 +1,75 @@
+$grassColor: lime;
+$poisonColor: purple;
+$fireColor: orange;
+$bugColor: #667611;
+$flyingColor: #aaaaFF;
+$waterColor: #5555ff;
+$normalColor: #880;
+$groundColor: #bb3;
+$fightingColor: #922;
+$psychicColor: #F77;
+$rockColor: rgb(161, 83, 83);
+$iceColor: rgb(154, 154, 255);
+$electricColor: #FF5;
+$dragonColor: #62F;
+$ghostColor: #808;
+
+.Grass {
+  background-color: $grassColor;
+}
+
+.Poison {
+  background-color: $poisonColor;
+}
+
+.Fire {
+  background-color: $fireColor;
+}
+
+.Water {
+  background-color: $waterColor;
+}
+
+.Bug {
+  background-color: $bugColor;
+}
+
+.Flying {
+  background-color: $flyingColor;
+}
+
+.Normal {
+  background-color: $normalColor;
+}
+
+.Ground {
+  background-color: $groundColor;
+}
+
+.Fighting {  
+  background-color: $fightingColor;
+}
+
+.Psychic {
+  background-color: $psychicColor;
+}
+
+.Rock {
+  background-color: $rockColor;
+}
+
+.Electric {
+  background-color: $electricColor;
+}
+
+.Ice {
+  background-color: $iceColor;
+}
+
+.Dragon {
+  background-color: $dragonColor;
+}
+
+.Ghost {
+  background-color: $ghostColor;
+}
