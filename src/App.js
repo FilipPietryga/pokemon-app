@@ -1,13 +1,24 @@
 import 'airbnb-browser-shims';
-import './App.css';
-import {Field} from "./components/Field"
+import './styles/css/App.css';
+import { Provider } from 'react-redux';
+import { configureStore } from '@reduxjs/toolkit';
+import reducer from './redux/slice';
 
-function App() {
+import List from "./components/List";
+
+const store = configureStore({
+  reducer: reducer
+}) 
+
+//sprawdz jak to sie teraz robi z nowym reduxem
+const App = () => {
   return (
-    <div className="App">
-      <Field/>
-    </div>
-  );
+    <Provider store={store}>
+      <div>
+        <List/>
+      </div>
+    </Provider>
+  )
 }
 
 export default App;
