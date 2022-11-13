@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min'
 import '../styles/scss/types.scss'
 
-function Field ({ img, tag, name, type }) {
+function Entry ({ img, tag, name, type }) {
   return (
     <div style={{width: "160px"}} 
       className='m-1 d-flex flex-column justify-content-center align-items-center border border-secondary rounded'>
@@ -22,4 +22,4 @@ function Field ({ img, tag, name, type }) {
   )
 }
 
-export default Field
+export default Entry
