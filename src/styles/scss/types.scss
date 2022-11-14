@@ -1,18 +1,18 @@
-$grassColor: lime;
-$poisonColor: purple;
-$fireColor: orange;
-$bugColor: #667611;
-$flyingColor: #aaaaFF;
-$waterColor: #5555ff;
-$normalColor: #880;
+$grassColor: rgb(116, 255, 116);
+$poisonColor: rgb(182, 85, 182);
+$fireColor: rgb(221, 174, 87);
+$bugColor: #99ad32;
+$flyingColor: #a7a7fd;
+$waterColor: #8282ff;
+$normalColor: rgb(158, 158, 42);
 $groundColor: #bb3;
-$fightingColor: #922;
-$psychicColor: #F77;
-$rockColor: rgb(161, 83, 83);
+$fightingColor: rgb(219, 112, 112);
+$psychicColor: rgb(230, 139, 139);
+$rockColor: rgb(211, 135, 135);
 $iceColor: rgb(154, 154, 255);
-$electricColor: #FF5;
-$dragonColor: #62F;
-$ghostColor: #808;
+$electricColor: rgb(230, 230, 187);
+$dragonColor: rgb(143, 109, 223);
+$ghostColor: rgb(156, 89, 156);
 
 .Grass {
   background-color: $grassColor;
